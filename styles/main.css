@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title{
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 0 rgba(182, 96, 213, 0.556);
+}
